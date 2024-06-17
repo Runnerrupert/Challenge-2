@@ -264,4 +264,20 @@ and change the png to whatever it is. */
 
 /* TODO: add media query for a max-width of 980px */
 
+/* @media screen and (max-width: 980px) {
+  main {
+    color: red;
+  }
+} */
+
 /* TODO: add media query for a max-width of 768px */
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-item:first-child {
+    min-height: 150px;
+    max-height: 150px;
+  }
+}
