@@ -230,13 +230,13 @@ main {
 /* Replace .project-images with the .project-INSERTNUMBER class
 and change the png to whatever it is. */
 
-/* .project-1 {
-  background-image: url("../images/placeholder-image.png");
+.project-1 {
+  background-image: url("../images/Horiseon-Website.PNG");
   background-size: cover;
   background-position: center;
 }
 
-.project-2 {
+/* .project-2 {
   background-image: url("../images/placeholder-image.png");
   background-size: cover;
   background-position: center;
