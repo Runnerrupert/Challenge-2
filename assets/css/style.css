@@ -226,6 +226,17 @@ main {
   background-size: cover;
   background-position: center;
 }
+
+.images {
+  min-height: 100px;
+  margin-top: 20px;
+}
+
+img {
+  padding-left: 30px;
+  width: 200px;
+  height: auto;
+}
  
 /* Replace .project-images with the .project-INSERTNUMBER class
 and change the png to whatever it is. */
@@ -264,11 +275,9 @@ and change the png to whatever it is. */
 
 /* TODO: add media query for a max-width of 980px */
 
-/* @media screen and (max-width: 980px) {
-  main {
-    color: red;
-  }
-} */
+@media screen and (max-width: 980px) {
+
+}
 
 /* TODO: add media query for a max-width of 768px */
 
